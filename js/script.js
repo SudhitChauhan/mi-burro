@@ -1,10 +1,10 @@
-var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon"),
-    themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
-"dark" === localStorage.getItem("color-theme") || !("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches ? (themeToggleLightIcon.classList.remove("hidden"), document.documentElement.classList.add("dark")) : (themeToggleDarkIcon.classList.remove("hidden"), document.documentElement.classList.remove("dark"));
-var themeToggleBtn = document.getElementById("theme-toggle");
-themeToggleBtn.addEventListener("click", function () {
-    themeToggleDarkIcon.classList.toggle("hidden"), themeToggleLightIcon.classList.toggle("hidden"), localStorage.getItem("color-theme") ? "light" === localStorage.getItem("color-theme") ? (document.documentElement.classList.add("dark"), localStorage.setItem("color-theme", "dark")) : (document.documentElement.classList.remove("dark"), localStorage.setItem("color-theme", "light")) : document.documentElement.classList.contains("dark") ? (document.documentElement.classList.remove("dark"), localStorage.setItem("color-theme", "light")) : (document.documentElement.classList.add("dark"), localStorage.setItem("color-theme", "dark"))
-});
+// var themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon"),
+//     themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
+// "dark" === localStorage.getItem("color-theme") || !("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches ? (themeToggleLightIcon.classList.remove("hidden"), document.documentElement.classList.add("dark")) : (themeToggleDarkIcon.classList.remove("hidden"), document.documentElement.classList.remove("dark"));
+// var themeToggleBtn = document.getElementById("theme-toggle");
+// themeToggleBtn.addEventListener("click", function () {
+//     themeToggleDarkIcon.classList.toggle("hidden"), themeToggleLightIcon.classList.toggle("hidden"), localStorage.getItem("color-theme") ? "light" === localStorage.getItem("color-theme") ? (document.documentElement.classList.add("dark"), localStorage.setItem("color-theme", "dark")) : (document.documentElement.classList.remove("dark"), localStorage.setItem("color-theme", "light")) : document.documentElement.classList.contains("dark") ? (document.documentElement.classList.remove("dark"), localStorage.setItem("color-theme", "light")) : (document.documentElement.classList.add("dark"), localStorage.setItem("color-theme", "dark"))
+// });
 const btn = document.querySelector("button.mobile-menu-button"),
     menu = document.querySelector(".mobile-menu"),
     btnClose = document.querySelector(".navbar-toggle-close");

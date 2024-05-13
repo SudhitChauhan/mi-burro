@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-a,
+/* a,
 a:link,
 a:visited,
 a:active,
@@ -30,7 +30,7 @@ i {
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
     color: rgb(var(--purple));
-}
+} */
 
 input,
 select,
@@ -80,4 +80,20 @@ img {
 .btn:hover {}
 
 
+.hero_info_1 {
+    top: 100px;
+}
 
+.hero_info_2 {
+    top: 200px;
+    right: 30px;
+}
+
+.main_hero_box,
+.main_hero_box>img {
+    width: 80%;
+    height: 90% !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}

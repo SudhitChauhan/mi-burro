@@ -19,27 +19,19 @@
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/aos.css" rel="stylesheet" />
     <link href="css/theme.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
+
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
     <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="images/favicons/favicon.png" type="image/x-icon" />
 </head>
 
 <body class="relative overflow-x-hidden  text-base antialiased bg-white font-Inter">
-    <div class="toggle-button fixed right-5 max-lg:bottom-2.5 lg:top-1/3 z-[10000000000]">
+    <!-- <div class="toggle-button fixed right-5 max-lg:bottom-2.5 lg:top-1/3 z-[10000000000]">
         <button id="theme-toggle" type="button"
             class="text-paragraph focus:outline-none focus:ring-0 focus:ring-gray-200 w-10 h-10 border rounded-md border-paragraph/25 flex justify-center items-center">
             <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 ml-1 -mt-[1px]" fill="currentColor"
@@ -53,7 +45,7 @@
                     fill-rule="evenodd" clip-rule="evenodd"></path>
             </svg>
         </button>
-    </div>
+    </div> -->
 
     <header class="fixed left-0 pt-8 z-[1000000000] duration-500  transition-all w-full bg-transparent"
         id="mainnavigationBar">
@@ -398,31 +390,29 @@
                 </div>
                 <div class="col-span-12 md:col-span-6 ">
                     <div class="relative w-full min-h-[530px] max-md:min-h-[400px] lg:ml-15">
-                        <div class="absolute  !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2">
-                            <img src="images/hero/hero-circle.jpg" alt="hero Image" class="inline-block dark:hidden" />
-                            <img src="images/hero/hero-circle-dark.png" alt="hero Image"
-                                class="hidden dark:inline-block" />
+                        <div class="absolute main_hero_box  !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img src="images/hero/hero-circle.jpg" alt="hero Image" class="inline-block" />
                         </div>
-                        <div class="absolute max-lg:w-[220px] max-lg:aspect-video max-lg:!left-0 max-md:!top-5 !top-15 !-left-[40px] lg:!-top-[20px] parallax-effect"
-                            parallax-value="-1" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000"
-                            data-aos-once="true">
-                            <img src="images/hero/hero-policy.png" alt="hero Image" class="inline-block dark:hidden" />
-                            <img src="images/hero/hero-policy-dark.png" alt="hero Image"
-                                class="hidden dark:inline-block" />
+                        <div class="absolute max-lg:w-[220px] max-lg:aspect-video hero_info_3 max-lg:!left-0 max-md:!top-5 !top-15 !-left-[40px] lg:!-top-[20px] parallax-effect text-lg bg-white py-4 px-10 rounded-full"
+                            parallax-value="-2">
+                            <i class="fa-regular fa-circle-check mr-2"></i>From a Company
                         </div>
-                        <div class="absolute max-lg:w-28 max-lg:aspect-square max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] parallax-effect"
-                            parallax-value="1" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000"
-                            data-aos-once="true">
-                            <img src="images/hero/hero-rating.png" alt="hero Image" class="inline-block dark:hidden" />
-                            <img src="images/hero/hero-rating-dark.png" alt="hero Image"
-                                class="hidden dark:inline-block" />
+                        <div class="absolute max-lg:w-[220px] max-lg:aspect-video hero_info_1 parallax-effect text-lg bg-white py-4 px-10 rounded-full"
+                            parallax-value="-1">
+                            <i class="fa-regular fa-circle-check mr-2"></i>Review a legal agreement
                         </div>
-                        <div class="absolute max-lg:w-[196px] !-right-5 !-bottom-0 max-md:!-bottom-5 max-md:!-right-5 lg:!not-sr-only-bottom-[45px] lg:right-0 xl:right-[30px] parallax-effect"
-                            parallax-value="2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000"
-                            data-aos-once="true">
-                            <img src="images/hero/hero-chart.png" alt="hero Image" class="inline-block dark:hidden" />
-                            <img src="images/hero/hero-chart-dark.png" alt="hero Image"
-                                class="hidden dark:inline-block" />
+
+                        <div class="absolute max-lg:w-[220px] max-lg:aspect-video hero_info_2 parallax-effect text-lg bg-white py-4 px-10 rounded-full"
+                            parallax-value="3">
+                            <i class="fa-regular fa-circle-check mr-2"></i>Pull Financials for a loan
+                        </div>
+                        <div class="absolute max-lg:w-28 max-lg:aspect-square hero_info_4 max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] parallax-effect text-lg bg-white py-4 px-10 rounded-full"
+                            parallax-value="1">
+                            <i class="fa-regular fa-circle-check mr-2"></i>Target new customers
+                        </div>
+                        <div class="absolute max-lg:w-[196px] !-right-5 hero_info_5 bottom-90 max-md:!-right-5 lg:right-0 xl:right-[30px] parallax-effect text-lg bg-white py-4 px-10 rounded-full"
+                            parallax-value="2">
+                            <i class="fa-regular fa-circle-check mr-2"></i>Generate sales leads
                         </div>
                     </div>
                 </div>
