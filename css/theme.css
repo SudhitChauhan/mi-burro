@@ -1140,6 +1140,14 @@ a {
   grid-column: span 4 / span 4;
 }
 
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
 .col-span-8 {
   grid-column: span 8 / span 8;
 }
@@ -2067,6 +2075,7 @@ a {
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
