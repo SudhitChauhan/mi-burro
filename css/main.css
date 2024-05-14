@@ -89,11 +89,22 @@ img {
     right: 30px;
 }
 
-.main_hero_box,
-.main_hero_box>img {
-    width: 80%;
-    height: 90% !important;
+.main_hero_box {
+    width: 100%;
+    height: 112% !important;
     object-fit: cover;
     object-position: center;
     border-radius: 30px;
+}
+
+.main_hero_box>img  {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+
+hr {
+    border-color: #e9e9e9 !important;
 }
