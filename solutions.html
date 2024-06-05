@@ -16,6 +16,7 @@
 
     <link href="css/all.css" rel="stylesheet" />
     <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/theme.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 
@@ -36,7 +37,12 @@
             </div>
             <ul
                 class="nav-list hidden lg:flex gap-10 mx-auto bg-white p-2.5 shadow-nav rounded-large [&>*:not(:last-child)]:me-1">
-
+                <li>
+                    <a href="index.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour 
+         duration-500 hover:duration-500 transition-colors ">
+                        Home
+                    </a>
+                </li>
                 <li>
                     <a href="about.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour 
          duration-500 hover:duration-500 transition-colors ">
@@ -92,34 +98,11 @@
                     <i class="fa-solid fa-times"></i>
                 </button>
                 <ul class="nav-list flex flex-col gap-5 w-full max-w-[500px] landscape:h-full">
-                    <li class="relative group">
-                        <a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors  active">
+                    <li>
+                        <a href="index.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+             duration-500 hover:duration-500 transition-colors ">
                             Home
-                            <i
-                                class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
                         </a>
-                        <ul
-                            class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour [&>*:not(:first-child)]:mt-2.5 z-10">
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="index.html" class="flex">
-                                    Home 1
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="payment.html" class="flex">
-                                    Home 2
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="banking.html" class="flex">
-                                    Home 3
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <a href="about.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
@@ -127,156 +110,28 @@
                             About
                         </a>
                     </li>
-                    <li class="relative group">
-                        <a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+                    <li>
+                        <a href="solutions.html" class="font-Inter active flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
              duration-500 hover:duration-500 transition-colors ">
-                            Services
-                            <i
-                                class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
+                            Solutions
                         </a>
-                        <ul
-                            class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour dark:[&>*:not(:last-child)]:border-borderColour-dark [&>*:not(:first-child)]:mt-2.5 z-10">
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="services.html" class="flex">
-                                    Services
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="services-single.html" class="flex">
-                                    Service Single
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="relative group">
-                        <a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors group">
-                            Pages
-                            <i
-                                class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
-                        </a>
-                        <ul
-                            class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour dark:[&>*:not(:last-child)]:border-borderColour-dark [&>*:not(:first-child)]:mt-2.5 z-10">
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="team.html" class="flex">
-                                    team
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="team-single.html" class="flex">
-                                    Team Details
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="testimonial.html" class="flex">
-                                    Testimonial
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="price.html" class="flex">
-                                    Price
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="career.html" class="flex">
-                                    Career
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="career-single.html" class="flex">
-                                    Career Single
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="faq.html" class="flex">
-                                    FAQ
-                                </a>
-                            </li>
-
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="integration.html" class="flex">
-                                    Integration
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="login.html" class="flex">Log In</a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="signup.html" class="flex">
-                                    Sign Up
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="404.html" class="flex">
-                                    404
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="relative group">
-                        <a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors   ">
-                            News
-                            <i
-                                class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
-                        </a>
-                        <ul
-                            class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour dark:[&>*:not(:last-child)]:border-borderColour-dark [&>*:not(:first-child)]:mt-2.5 z-10">
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="blog.html" class="flex">
-                                    Blog Grid
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="blog-list.html" class="flex">
-                                    Blog List
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="categories.html" class="flex">
-                                    Blog Categories
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="tags.html" class="flex">
-                                    Blog Tags
-                                </a>
-                            </li>
-                            <li
-                                class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-                                <a href="blog-details.html" class="flex">
-                                    Blog Details
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
-                        <a href="contact.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors  ">
-                            Contact Us
+                        <a href="success.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+             duration-500 hover:duration-500 transition-colors ">
+                            Success
+                        </a>
+                    </li>
+                    <li>
+                        <a href="industries.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+             duration-500 hover:duration-500 transition-colors ">
+                            Industries
                         </a>
                     </li>
 
                     <li>
                         <a href="contact.html" class="btn btn-navbar btn-sm">
-                            Request Demo
+                            Contact Sales
                         </a>
                     </li>
                 </ul>
@@ -284,7 +139,7 @@
         </nav>
     </header>
 
-    <section class="hero  overflow-hidden relative max-lg:pt-150 pt-[240px] pb-[60px]">
+    <section class="hero overflow-hidden relative max-lg:pt-150 pt-[240px] pb-[60px]">
         <div class="container">
             <div class="max-w-[948px] mx-auto text-center" data-aos="fade-up" data-aos-offset="200"
                 data-aos-duration="1000" data-aos-once="true">
@@ -321,7 +176,6 @@
         </div>
         <div class="container ">
             <div class="mb-12 text-center">
-
                 <div class="block max-lg:text-center mb-20">
                     <h2 class=" max-lg:mb-5 mb-5">Our Services value chain</h2>
                     <p class="section-tagline max-lg:text-center">We hold-hands for Guaranteed growth or for specific
@@ -342,9 +196,36 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-3  max-sm:grid-cols-1 max-lg:grid-cols-2 gap-8">
+                <div class="grid grid-cols-3 max-sm:grid-cols-1 max-lg:grid-cols-2 gap-8">
                     <div
-                        class="bg-white  rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+                        class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+                        <div
+                            class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+                            <img src="images/services/effeciency.svg" alt="service logo"
+                                class="inline-block dark:hidden mb-6" />
+                            <img src="images/services/effeciency-dark.svg" alt="service logo"
+                                class="hidden dark:inline-block mb-6" />
+                            <a href="services-single.html" class="block">
+                                <h3 class="mb-2.5">Accounting
+                                    on demand</h3>
+                            </a>
+                            <p class="mb-6">Monthly
+                                financials,
+
+                                Tax filing,
+
+                                Statutory
+                                federal/state
+                                compliance,
+
+                                Payroll</p>
+                            <button onclick="togglecustModal('accounting-demand')" class="btn-outline btn-sm">Read
+                                More</button>
+                        </div>
+                    </div>
+
+                    <di v
+                        class="bg-white modal-conta rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
                         <div
                             class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
                             <img src="images/services/investment.svg" alt="service logo"
@@ -366,11 +247,12 @@
                                 Tax filings,
 
                                 Etc.</p>
-                            <a href="services-single.html" class="btn-outline btn-sm">
+                            <button onclick="togglecustModal('launch-business')" class="btn-outline btn-sm">
                                 Read More
-                            </a>
+                            </button>
                         </div>
-                    </div>
+
+                    </di>
 
                     <div
                         class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
@@ -396,9 +278,9 @@
 
                                 Strategy
                                 development</p>
-                            <a href="services-single.html" class="btn-outline btn-sm">
+                            <button onclick="togglecustModal('market-analysis')" class="btn-outline btn-sm">
                                 Read More
-                            </a>
+                            </button>
                         </div>
                     </div>
 
@@ -421,7 +303,8 @@
                                 Lead pipeline,
 
                                 Pitch docs</p>
-                            <a href="services-single.html" class="btn-outline btn-sm">Read More</a>
+                            <button onclick="togglecustModal('growth-marketing')" class="btn-outline btn-sm">Read
+                                More</button>
                         </div>
                     </div>
 
@@ -445,38 +328,13 @@
 
                                 Focused pitch
                                 docs</p>
-                            <a href="services-single.html" class="btn-outline btn-sm">Read More</a>
+                            <button onclick="togglecustModal('sales-generation')" class="btn-outline btn-sm">Read
+                                More</button>
                         </div>
                     </div>
 
                     <div
-                        class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-                        <div
-                            class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
-                            <img src="images/services/effeciency.svg" alt="service logo"
-                                class="inline-block dark:hidden mb-6" />
-                            <img src="images/services/effeciency-dark.svg" alt="service logo"
-                                class="hidden dark:inline-block mb-6" />
-                            <a href="services-single.html" class="block">
-                                <h3 class="mb-2.5">Accounting
-                                    on demand</h3>
-                            </a>
-                            <p class="mb-6">Monthly
-                                financials,
-
-                                Tax filing,
-
-                                Statutory
-                                federal/state
-                                compliance,
-
-                                Payroll</p>
-                            <a href="services-single.html" class="btn-outline btn-sm">Read More</a>
-                        </div>
-                    </div>
-
-                    <div
-                        class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+                        class="bg-white rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
                         <div
                             class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
                             <img src="images/services/fund.svg" alt="service logo"
@@ -496,15 +354,49 @@
                                 Non-Compete,
 
                                 Custom</p>
-                            <a href="services-single.html" class="btn-outline btn-sm">
+                            <button onclick="togglecustModal('legal-demand')" class="btn-outline btn-sm">
                                 Read More
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="relative  pb-25 max-md:pb-25 max-md:overflow-hidden">
+        <div class="container relative max-md:text-center">
+            <div class="absolute left-1/2 -bottom-[442px] -translate-x-1/2  flex max-md:flex-col -z-10 max-md:hidden">
+                <div
+                    class="max-md:hidden max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]">
+                </div>
+                <div
+                    class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]">
+                </div>
+                <div
+                    class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]">
+                </div>
+            </div>
+            <div
+                class="absolute left-1/2 -bottom-[350px] p-[350px] -translate-x-1/2 bg-contain w-full h-full  bg-[url('../images/hero-gradient.png')] bg-no-repeat bg-center opacity-70 md:hidden -z-10">
+            </div>
+            <div>
+                <div>
+                    <p class="section-tagline">Start Today</p>
+                </div>
+                <div class="grid grid-cols-12 grid-y-10 items-start">
+                    <div class="max-md:col-span-full md:col-span-6 lg:col-span-7">
+                        <h2 class="mb-5 max-lg:text-[32px] text-[48px] font-semibold ">Start your Journey With us!</h2>
+                        <p>By creating a custom Web design for your business, we can bring your vision to life.</p>
+                    </div>
+                    <div class="max-md:col-span-full md:col-span-6 lg:col-span-5 max-md:mt-5 text-end">
+                        <button class="btn max-lg:col-span-full lg:col-span-4">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <div class="container  overflow-hidden max-lg:!px-0">
         <hr class="!border-black " />
@@ -649,12 +541,239 @@
     </section>
 
 
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal launch-business">
+        <div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+            <div class="modal-contianer relative">
+                <button onclick="togglecustModal('launch-business')" class="closebtn"><i
+                        class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal-body">
+                    <h3 class="mb-5 title-modal">Launch Business</h3>
+
+                    <table class="servi-list-table">
+                        <tr>
+                            <td><b>Services:</b></td>
+                            <td>LLC, Inc., State level Inc., Agreements, Websites, Accounting, Tax registration,
+                                Tax filings</td>
+                        </tr>
+                        <tr>
+                            <td><b>Time (weeks):</b></td>
+                            <td>1-2</td>
+                        </tr>
+                        <tr>
+                            <td><b>Cost:</b></td>
+                            <td>$</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+                                aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal market-analysis">
+        <div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+            <div class="modal-contianer relative">
+                <button onclick="togglecustModal('market-analysis')" class="closebtn"><i
+                        class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal-body">
+                    <h3 class="mb-5 title-modal">Market Analysis</h3>
+
+                    <table class="servi-list-table">
+                        <tr>
+                            <td><b>Services:</b></td>
+                            <td>Update,
+                                Competitor Analysis,
+                                Positioning,
+                                Pricing analysis,
+                                Strategy development
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Time (weeks):</b></td>
+                            <td>2-4</td>
+                        </tr>
+                        <tr>
+                            <td><b>Cost:</b></td>
+                            <td>$$</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+                                aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal growth-marketing">
+        <div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+            <div class="modal-contianer relative">
+                <button onclick="togglecustModal('growth-marketing')" class="closebtn"><i
+                        class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal-body">
+                    <h3 class="mb-5 title-modal">Growth Marketing
+                    </h3>
+
+                    <table class="servi-list-table">
+                        <tr>
+                            <td><b>Services:</b></td>
+                            <td>SEO,
+                                SEM,
+                                Target/market segments,
+                                Lead pipeline,
+                                Pitch docs
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Time (weeks):</b></td>
+                            <td>4-8</td>
+                        </tr>
+                        <tr>
+                            <td><b>Cost:</b></td>
+                            <td>$$$</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+                                aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal sales-generation">
+        <div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+            <div class="modal-contianer relative">
+                <button onclick="togglecustModal('sales-generation')" class="closebtn"><i
+                        class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal-body">
+                    <h3 class="mb-5 title-modal">Sales Lead Generation
+                    </h3>
+
+                    <table class="servi-list-table">
+                        <tr>
+                            <td><b>Services:</b></td>
+                            <td>Generate focused leads,
+                                Follow up to drop or close,
+                                Focused pitch docs
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Time (weeks):</b></td>
+                            <td>10-12</td>
+                        </tr>
+                        <tr>
+                            <td><b>Cost:</b></td>
+                            <td>$$$</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+                                aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal accounting-demand">
+        <div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+            <div class="modal-contianer relative">
+                <button onclick="togglecustModal('accounting-demand')" class="closebtn"><i
+                        class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal-body">
+                    <h3 class="mb-5 title-modal">Accounting on demand
+                    </h3>
+
+                    <table class="servi-list-table">
+                        <tr>
+                            <td><b>Services:</b></td>
+                            <td>Monthly financials,
+                                Tax filing,
+                                Statutory federal/state compliance,
+                                Payroll
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Time (weeks):</b></td>
+                            <td>1-2</td>
+                        </tr>
+                        <tr>
+                            <td><b>Cost:</b></td>
+                            <td>$$</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+                                aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal legal-demand">
+        <div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+            <div class="modal-contianer relative">
+                <button onclick="togglecustModal('legal-demand')" class="closebtn"><i
+                        class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal-body">
+                    <h3 class="mb-5 title-modal">Legal on demand
+                    </h3>
+
+                    <table class="servi-list-table">
+                        <tr>
+                            <td><b>Services:</b></td>
+                            <td>Partnership,
+                                Buy-Sell,
+                                NDA,
+                                Non-Compete,
+                                Custom
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Time (weeks):</b></td>
+                            <td>&lt;1</td>
+                        </tr>
+                        <tr>
+                            <td><b>Cost:</b></td>
+                            <td>$</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+                                aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/motionpath.js"></script>
     <script src="js/fancybox.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

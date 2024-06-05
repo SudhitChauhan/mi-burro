@@ -16,6 +16,7 @@
 
 	<link href="css/all.css" rel="stylesheet" />
 	<link href="css/aos.css" rel="stylesheet" />
+	<link href="css/swiper.css" rel="stylesheet" />
 	<link href="css/theme.css" rel="stylesheet" />
 	<link href="css/main.css" rel="stylesheet" />
 
@@ -36,7 +37,12 @@
 			</div>
 			<ul
 				class="nav-list hidden lg:flex gap-10 mx-auto bg-white p-2.5 shadow-nav rounded-large [&>*:not(:last-child)]:me-1">
-
+				<li>
+					<a href="index.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour 
+         duration-500 hover:duration-500 transition-colors ">
+						Home
+					</a>
+				</li>
 				<li>
 					<a href="about.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour 
          duration-500 hover:duration-500 transition-colors ">
@@ -92,34 +98,11 @@
 					<i class="fa-solid fa-times"></i>
 				</button>
 				<ul class="nav-list flex flex-col gap-5 w-full max-w-[500px] landscape:h-full">
-					<li class="relative group">
-						<a href="index.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors  active">
+					<li>
+						<a href="index.html" class="font-Inter active flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+             duration-500 hover:duration-500 transition-colors ">
 							Home
-							<i
-								class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
 						</a>
-						<ul
-							class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour [&>*:not(:first-child)]:mt-2.5 z-10">
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="index.html" class="flex">
-									Home 1
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="payment.html" class="flex">
-									Home 2
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="banking.html" class="flex">
-									Home 3
-								</a>
-							</li>
-						</ul>
 					</li>
 					<li>
 						<a href="about.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
@@ -127,156 +110,28 @@
 							About
 						</a>
 					</li>
-					<li class="relative group">
-						<a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+					<li>
+						<a href="solutions.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
              duration-500 hover:duration-500 transition-colors ">
-							Services
-							<i
-								class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
+							Solutions
 						</a>
-						<ul
-							class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour dark:[&>*:not(:last-child)]:border-borderColour-dark [&>*:not(:first-child)]:mt-2.5 z-10">
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="services.html" class="flex">
-									Services
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="services-single.html" class="flex">
-									Service Single
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li class="relative group">
-						<a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors group">
-							Pages
-							<i
-								class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
-						</a>
-						<ul
-							class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour dark:[&>*:not(:last-child)]:border-borderColour-dark [&>*:not(:first-child)]:mt-2.5 z-10">
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="team.html" class="flex">
-									team
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="team-single.html" class="flex">
-									Team Details
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="testimonial.html" class="flex">
-									Testimonial
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="price.html" class="flex">
-									Price
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="career.html" class="flex">
-									Career
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="career-single.html" class="flex">
-									Career Single
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="faq.html" class="flex">
-									FAQ
-								</a>
-							</li>
-
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="integration.html" class="flex">
-									Integration
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="login.html" class="flex">Log In</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="signup.html" class="flex">
-									Sign Up
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="404.html" class="flex">
-									404
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li class="relative group">
-						<a href="javascript:void(0)" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors   ">
-							News
-							<i
-								class="fa-solid fa-angle-down text-paragraph  ml-auto group-hover:rotate-180 duration-500 mt-1"></i>
-						</a>
-						<ul
-							class="absolute w-full min-w-[250px] left-0 top-12  p-5   opacity-0 scale-y-0 origin-top duration-500 group-hover:scale-y-100 bg-white   group-hover:opacity-100 rounded-md [&>*:not(:last-child)]:border-b [&>*:not(:last-child)]:border-dashed [&>*:not(:last-child)]:border-borderColour dark:[&>*:not(:last-child)]:border-borderColour-dark [&>*:not(:first-child)]:mt-2.5 z-10">
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="blog.html" class="flex">
-									Blog Grid
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="blog-list.html" class="flex">
-									Blog List
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="categories.html" class="flex">
-									Blog Categories
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="tags.html" class="flex">
-									Blog Tags
-								</a>
-							</li>
-							<li
-								class="relative overflow-hidden text-base capitalize text-paragraph pb-2.5 before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-paragraph   before:transition-transform before:duration-500 before:content-[''] before:hover:origin-left before:hover:scale-x-100">
-								<a href="blog-details.html" class="flex">
-									Blog Details
-								</a>
-							</li>
-						</ul>
 					</li>
 					<li>
-						<a href="contact.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
-             duration-500 hover:duration-500 transition-colors  ">
-							Contact Us
+						<a href="success.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+             duration-500 hover:duration-500 transition-colors ">
+							Success
+						</a>
+					</li>
+					<li>
+						<a href="industries.html" class="font-Inter flex items-center text-base font-medium leading-8 text-paragraph  py-[5px] px-5 lg:px-4 xl:px-5 border rounded-large border-transparent hover:bg-white hover:border-borderColour  
+             duration-500 hover:duration-500 transition-colors ">
+							Industries
 						</a>
 					</li>
 
 					<li>
 						<a href="contact.html" class="btn btn-navbar btn-sm">
-							Request Demo
+							Contact Sales
 						</a>
 					</li>
 				</ul>
@@ -350,7 +205,7 @@
 		<div class="container">
 			<div class="grid grid-cols-12 items-center relative z-10 max-lg:gap-y-10" data-aos="fade-up"
 				data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
-				<div class="col-span-12 md:col-span-6 ">
+				<div class="col-span-12 lg:col-span-6 ">
 					<!-- <p class="max-lg:mb-4 mb-8 font-medium uppercase">50k+ Trusted Businesses</p> -->
 					<h1 class="mb-12 max-md:mb-8 hero_text">
 						Giving Fuel to
@@ -365,7 +220,7 @@
 						<div
 							class="grid grid-cols-12 items-center border rounded-[60px] bg-white dark:bg-dark-200 dark:border-[#31332F] border-borderColour pl-4 sm:pl-5 pe-1 pt-1 pb-1 max-w-[520px] w-full">
 							<input type="text" placeholder="Enter your email"
-								class=" col-span-7 xs:col-span-7 bg-transparent outline-none placeholder:text-light dark:placeholder:text-[#A1A49D] text-[#A1A49D] text-light focus:outline-none  leading-[1.75] focus:border-primary duration-300 transition-all " />
+								class="col-span-7 py-3 xs:col-span-7 bg-transparent outline-none placeholder:text-light dark:placeholder:text-[#A1A49D] text-[#A1A49D] text-light focus:outline-none  leading-[1.75] focus:border-primary duration-300 transition-all " />
 							<button class="btn col-span-5 xs:col-span-5 max-lg:!px-3 max-lg:!text-sm input_btn_size">How
 								can we help
 								you?
@@ -373,28 +228,49 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-span-12 md:col-span-6 ">
+				<div class="col-span-12 lg:col-span-6 ">
 					<div class="relative w-full min-h-[530px] max-md:min-h-[400px] lg:ml-15">
-						<div class="absolute  !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2">
+						<div class="absolute !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2">
 							<img src="images/hero/hero-circle.png" alt="hero Image" class="inline-block dark:hidden" />
 							<img src="images/hero/hero-circle-dark.png" alt="hero Image"
 								class="hidden dark:inline-block" />
 						</div>
-						<div class="absolute max-lg:w-[220px] max-lg:aspect-video max-lg:!left-0 max-md:!top-5 !top-15 !-left-[40px] lg:!-top-[20px] parallax-effect"
+						<div class="absolute hero_info_3 max-lg:!left-0 max-md:!top-5 !top-15 !-left-[40px] lg:!-top-[20px] parallax-effect text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4"
+							parallax-value="-2">
+							<img src="images/office-building.png" width="30" />From a Company
+						</div>
+						<div class="absolute hero_info_1 parallax-effect text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4"
+							parallax-value="-1">
+							<img src="images/contract.png" width="30" />Review a legal agreement
+						</div>
+
+						<div class="absolute hero_info_2 parallax-effect text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4"
+							parallax-value="3">
+							<img src="images/saving.png" width="30" />Pull Financials for a loan
+						</div>
+						<div class="absolute hero_info_4 max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] parallax-effect text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4"
+							parallax-value="1">
+							<img src="images/new-account.png" width="30" />Target new customers
+						</div>
+						<div class="absolute !-left-5 hero_info_5 bottom-90 max-md:!-left-5 lg:left-0 xl:left-[30px] parallax-effect text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4"
+							parallax-value="2">
+							<img src="images/profit-and-loss.png" width="30" />Generate sales leads
+						</div>
+						<!-- <div class="absolute max-lg:w-[220px] max-lg:aspect-video max-lg:!left-0 max-md:!top-5 !top-15 !-left-[40px] lg:!-top-[20px] parallax-effect"
 							parallax-value="-1" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000"
 							data-aos-once="true">
 							<img src="images/hero/hero-policy.png" alt="hero Image" class="inline-block dark:hidden" />
 							<img src="images/hero/hero-policy-dark.png" alt="hero Image"
 								class="hidden dark:inline-block" />
-						</div>
-						<div class="absolute max-lg:w-28 max-lg:aspect-square max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] parallax-effect"
+						</div> -->
+						<!-- <div class="absolute max-lg:w-28 max-lg:aspect-square max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] parallax-effect"
 							parallax-value="1" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000"
 							data-aos-once="true">
 							<img src="images/hero/hero-rating.png" alt="hero Image" class="inline-block dark:hidden" />
 							<img src="images/hero/hero-rating-dark.png" alt="hero Image"
 								class="hidden dark:inline-block" />
-						</div>
-						<div class="absolute max-lg:w-[196px] !-right-5 !-bottom-0 max-md:!-bottom-5 max-md:!-right-5 lg:!not-sr-only-bottom-[45px] lg:right-0 xl:right-[30px] parallax-effect"
+						</div> -->
+						<div class="absolute max-lg:w-[196px] image-hero-box !-right-5 !-bottom-0 max-md:!-bottom-5 max-md:!-right-5 lg:!not-sr-only-bottom-[45px] lg:right-0 xl:right-[30px] parallax-effect"
 							parallax-value="2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000"
 							data-aos-once="true">
 							<img src="images/hero/hero-chart.png" alt="hero Image" class="inline-block dark:hidden" />
@@ -410,10 +286,10 @@
 	<section class="client pt-[140px] pb-[145px] max-lg:py-20 bg-white dark:bg-dark-300">
 		<div class="container  overflow-hidden max-lg:!px-0">
 			<div class=" text-center max-w-[550px] px-10px mx-auto max-lg:px-2.5">
-				<h2 class="mb-10">The world's best companies trust Mi Burro.</h2>
-				<p class="text-light mb-15">Trusted by thousands of companies across 50+ countries</p>
+				<h2 class="mb-10">Best companies trust Mi Burro.</h2>
+				<p class="text-light mb-15">Trusted by hundreds of companies across 50+ countries</p>
 			</div>
-			<div
+			<!-- <div
 				class="relative after:absolute before:absolute after:w-[120px] after:h-[40px] after:bg-gradient-to-r after:from-white after:from-[37.5%]  after:top-1/2 after:-translate-y-1/2 after:-left-0.5 after:z-10 before:w-[120px] before:h-[40px] before:bg-gradient-to-l before:from-white before:from-[37.5%] before:-right-0.5  before:top-1/2 before:-translate-y-1/2  before:z-10 dark:after:from-dark-gradient dark:before:from-dark-gradient">
 				<div class="absolute left-0 top-0 w-full  max-lg:hidden">
 					<img src="images/clients/client-border.svg" alt="border" class="inline-block dark:hidden" />
@@ -449,84 +325,476 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="mt-15 flex items-center justify-center ">
+			<div class="mt-15 flex items-center justify-center mb-20">
 				<a href="contact.html" class="btn-outline">
 					Start your Journey
 				</a>
 			</div>
+			<div class="text-center max-w-[550px] px-10px mx-auto max-lg:px-2.5">
+				<h2 class="mb-10">Case Studies</h2>
+			</div>
+			<div class="!pb-20 md:!px-6 swiper" id="blog-feature">
+				<div class="swiper-wrapper">
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog2.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">Targeted regional marketing to improve
+										sales funnel</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog1.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">Conduct A/B test to
+										optimize Ad impression
+										take-rates</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog3.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">Launched a new
+										business website in 9
+										days</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog2.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">Financial projections
+										with market & customer
+										validation for an auto
+										supplier</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog1.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">Legal agreements on
+										demand</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog3.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">US Market entry
+										analysis for a European
+										supplier</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 swiper-slide shadow-nav">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
+							<div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-5 gap-12 items-center">
+								<img src="images/blog/blog2.png" alt="blog image"
+									class="w-full rounded-lg max-md:object-cover max-md:object-center max-md:h-[350px]" />
+								<div class="">
+									<h3 class="mb-3 font-semibold leading-[1.33]">Targeted regional marketing to improve
+										sales funnel</h3>
+
+									<div class="flex gap-x-2 items-center mb-4 ">
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"
+												viewBox="0 0 5 6" fill="none">
+												<circle cx="2.5" cy="3" r="2.5" fill=""
+													class="fill-[#D8DBD0] dark:fill-[#3B3C39]" />
+											</svg>
+										</span>
+										<p>Aug 30, 2023</p>
+									</div>
+									<p class="mb-0">
+										Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium
+										vitae suspendisse sed
+										accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget
+										pulvinar pretium.
+									</p>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="swiper-pagination mt-12"></div>
+			</div>
 		</div>
 	</section>
 
-	<section class=" bg-white dark:bg-dark-300 overflow-hidden relative pb-150 lg:pb-15 max-lg:pt-20 max-lg:pb-150">
-		<div class="container ">
-			<div class="grid grid-cols-2 max-md:grid-cols-1 gap-10 1xl:gap-x-24 items-center">
-				<div class="max-md:order-2">
-					<div class="relative pt-150 lg:py-150 lg:px-150">
-						<div class="w-[250px] lg:w-[300px] aspect-video relative mx-auto">
-							<!-- <img src="images/solution/solution.png" alt="vision image" class="dark:hidden" />
-						<img src="images/solution/solution-dark.png" alt="vision image"
-							class="hidden dark:inline-block" /> -->
-							<div class="absolute left-10 -top-[130px] lg:-top-[185px] lg:left-15 right-auto bottom-auto w-[250px] h-[150px] lg:w-[280px] lg:h-[180px] xl:w-[320px] xl:h-[230px]"
-								data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000"
-								data-aos-once="true">
-								<img src="images/solution/solution-shape1.png" alt="vision image"
-									class="dark:hidden  w-full" />
-								<img src="images/solution/solution-shape1-dark.png" alt="vision image"
-									class="hidden dark:inline-block w-full" />
-							</div>
-							<!-- <div class="absolute right-12 top-12 lg:right-20 left-auto bottom-auto w-[280px] h-[190px] lg:w-[320px] lg:h-[230px] xl:w-[368px] xl:h-[280px]"
-							data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="100"
-							data-aos-once="true">
-							<img src="images/solution/solution-shape2.png" alt="vision image"
-								class="dark:hidden  w-full" />
-							<img src="images/solution/solution-shape2-dark.png" alt="vision image"
-								class="hidden dark:inline-block w-full" />
-						</div> -->
-							<div class="absolute left-[175px] -bottom-[70px] lg:-bottom-[86px] lg:left-[200px] right-auto top-auto w-[150px] lg:w-[170px] aspect-video"
-								data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="200"
-								data-aos-once="true">
-								<img src="images/solution/solution-shape3.png" alt="vision image"
-									class="dark:hidden  w-full" />
-								<img src="images/solution/solution-shape3-dark.png" alt="vision image"
-									class="hidden dark:inline-block w-full" />
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="max-md:order-1 lg:-mt-15">
-					<p class="section-tagline">Strong Solutions</p>
+	<section class="relative z-10 pb-20">
+		<div class="container">
 
-					<h2 class="max-lg:mb-4 mb-8">Ensure strong solutions are available at all times</h2>
-					<p class="max-lg:mb-6 mb-11">
-						Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It's not
-						Latin though it
-						looks like nothing.
-					</p>
-					<ul
-						class="max-lg:mb-6 mb-14 flex max-md:flex-col max-md:gap-y-5 lg:items-center lg:[&>*:not(:last-child)]:mr-10 ">
-						<li class="relative flex items-center gap-x-2 ">
-							<i class="fa-solid fa-check text-paragraph dark:text-primary"></i>
-							<span class=" font-jakarta_sans font-medium">On Demand Support</span>
-						</li>
-						<li class="relative flex items-center gap-x-2 ">
-							<i class="fa-solid fa-check text-paragraph dark:text-primary"></i>
-							<span class=" font-jakarta_sans font-medium">Information Sharing</span>
-						</li>
-						<li class="relative flex items-center gap-x-2 ">
-							<i class="fa-solid fa-check text-paragraph dark:text-primary"></i>
-							<span class=" font-jakarta_sans font-medium">Cloud Technology</span>
-						</li>
-					</ul>
-					<a href="contact.html" class="btn-outline">
-						Start Your Journey
-					</a>
+			<div class="bg-white rounded-medium p-2.5 max-w-[850px] mx-auto shadow-nav">
+				<div class="bg-white border border-dashed rounded border-gray-100 dark:border-borderColour-dark py-10 grid grid-cols-3 max-md:grid-cols-1  max-md:gap-y-10 items-center  [&>*:not(:last-child)]:after:absolute  md:[&>*:not(:last-child)]:after:right-0 md:[&>*:not(:last-child)]:after:w-[1px] md:[&>*:not(:last-child)]:after:h-[60px] md:[&>*:not(:last-child)]:after:content-[url('../images/clients/client-item-border.svg')] md:[&>*:not(:last-child)]:after:top-1/2 md:[&>*:not(:last-child)]:after:-translate-y-1/2 md:dark:[&>*:not(:last-child)]:after:content-[url('../images/clients/client-item-border-dark.svg')]  max-md:[&>*:not(:last-child)]:after:h-[1px] max-md:[&>*:not(:last-child)]:after:w-[270px] max-md:[&>*:not(:last-child)]:after:-bottom-5 max-md:[&>*:not(:last-child)]:after:left-1/2 max-md:[&>*:not(:last-child)]:after:-translate-x-1/2  max-md:[&>*:not(:last-child)]:after:content-[url('../images/clients/client-item-border-mobile.svg')] max-md:dark:[&>*:not(:last-child)]:after:content-[url('../images/clients/client-item-border-mobile-dark.svg')] "
+					id="counter">
+					<div class="flex flex-col items-center justify-center relative">
+						<h2 class="text-[48px]">
+							<span class="counter" data-value="100">
+							</span><span class="percent">+</span>
+						</h2>
+						<p class="font-jakarta_sans text-light">Project Completed</p>
+					</div>
+					<div class="flex flex-col items-center justify-center relative">
+						<h2 class="text-[48px]">
+							<span class="counter" data-value="5">
+							</span><span class="percent">K</span><span class="percent">+</span>
+						</h2>
+						<p class="font-jakarta_sans text-light">Tax returns</p>
+					</div>
+					<div class="flex flex-col items-center justify-center relative">
+						<h2 class="text-[48px]">
+							<span class="counter" data-value="500">
+							</span><span class="percent">+</span>
+						</h2>
+						<p class="font-jakarta_sans text-light">Satisfied Clients</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class=" bg-gray dark:bg-dark overflow-hidden relative pt-150 pb-[130px] max-md:py-20">
+
+	<section class="bg-white dark:bg-dark-300 pb-150 relative sm:overflow-hidden">
+		<div
+			class="absolute left-0 right-0 top-25 bg-[url('../images/service-bg.png')] bg-no-repeat bg-cover bg-center opacity-70 w-full h-full  sm:hidden">
+		</div>
+		<div class="container ">
+			<div class="mb-12 text-center">
+
+				<div class="block max-lg:text-center mb-20">
+					<h2 class=" max-lg:mb-5 mb-5">Our Services value chain</h2>
+					<p class="section-tagline max-lg:text-center">We hold-hands for Guaranteed growth or for specific
+						initiatives</p>
+				</div>
+			</div>
+
+			<div class="relative z-10 mb-10">
+				<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex -z-10 max-sm:hidden">
+					<div
+						class="w-[330px] h-[330px] xl:w-[442px] xl:h-[442px] blur-[145px] rounded-full bg-primary-200/20 ">
+					</div>
+					<div
+						class="w-[330px] h-[330px] xl:w-[442px] xl:h-[442px] blur-[145px] rounded-full bg-primary-200/25 lg:-ml-[170px]">
+					</div>
+					<div
+						class="w-[330px] h-[330px] xl:w-[442px] xl:h-[442px] blur-[145px] rounded-full bg-primary-200/20 lg-ml-[170px]">
+					</div>
+				</div>
+
+				<div class="grid grid-cols-3  max-sm:grid-cols-1 max-lg:grid-cols-2 gap-8">
+
+
+					<div
+						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+							<img src="images/services/effeciency.svg" alt="service logo"
+								class="inline-block dark:hidden mb-6" />
+							<img src="images/services/effeciency-dark.svg" alt="service logo"
+								class="hidden dark:inline-block mb-6" />
+							<a href="services-single.html" class="block">
+								<h3 class="mb-2.5">Accounting
+									on demand</h3>
+							</a>
+							<p class="mb-6">Monthly
+								financials,
+
+								Tax filing,
+
+								Statutory
+								federal/state
+								compliance,
+
+								Payroll</p>
+							<button onclick="togglecustModal('accounting-demand')" class="btn-outline btn-sm">Read
+								More</button>
+						</div>
+					</div>
+
+					<di v
+						class="bg-white modal-conta rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
+							<img src="images/services/investment.svg" alt="service logo"
+								class="inline-block dark:hidden mb-6" />
+							<img src="images/services/investment-dark.svg" alt="service logo"
+								class="hidden dark:inline-block mb-6" />
+							<a href="services-single.html" class="block">
+								<h3 class="mb-2.5">Launch Business</h3>
+							</a>
+							<p class="mb-6">LLC Inc.,
+
+								Tax registration,
+								Agreements,
+
+								Accounting,
+								Websites,
+
+
+								Tax filings,
+
+								Etc.</p>
+							<button onclick="togglecustModal('launch-business')" class="btn-outline btn-sm">
+								Read More
+							</button>
+						</div>
+
+					</di>
+
+					<div
+						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+							<img src="images/services/sales.svg" alt="service logo"
+								class="inline-block dark:hidden mb-6" />
+							<img src="images/services/sales-dark.svg" alt="service logo"
+								class="hidden dark:inline-block mb-6" />
+							<a href="services-single.html" class="block">
+								<h3 class="mb-2.5">Market
+									Analysis</h3>
+							</a>
+							<p class="mb-6">Update,
+
+								Competitor
+								Analysis,
+
+								Positioning,
+
+								Pricing
+								analysis,
+
+								Strategy
+								development</p>
+							<button onclick="togglecustModal('market-analysis')" class="btn-outline btn-sm">
+								Read More
+							</button>
+						</div>
+					</div>
+
+					<div
+						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+							<img src="images/services/loan.svg" alt="service logo"
+								class="inline-block dark:hidden mb-6" />
+							<img src="images/services/loan-dark.svg" alt="service logo"
+								class="hidden dark:inline-block mb-6" />
+							<a href="services-single.html" class="block">
+								<h3 class="mb-2.5">Growth
+									Marketing</h3>
+							</a>
+							<p class="mb-6">SEO, SEM,
+
+								Target/market segments,
+
+								Lead pipeline,
+
+								Pitch docs</p>
+							<button onclick="togglecustModal('growth-marketing')" class="btn-outline btn-sm">Read
+								More</button>
+						</div>
+					</div>
+
+					<div
+						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+							<img src="images/services/finance.svg" alt="service logo"
+								class="inline-block dark:hidden mb-6" />
+							<img src="images/services/finance-dark.svg" alt="service logo"
+								class="hidden dark:inline-block mb-6" />
+							<a href="services-single.html" class="block">
+								<h3 class="mb-2.5">Sales Lead
+									Generation</h3>
+							</a>
+							<p class="mb-6">Generate
+								focused leads,
+
+								Follow up to
+								drop or close,
+
+								Focused pitch
+								docs</p>
+							<button onclick="togglecustModal('sales-generation')" class="btn-outline btn-sm">Read
+								More</button>
+						</div>
+					</div>
+
+					<div
+						class="bg-white rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+						<div
+							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+							<img src="images/services/fund.svg" alt="service logo"
+								class="inline-block dark:hidden mb-6" />
+							<img src="images/services/fund-dark.svg" alt="service logo"
+								class="hidden dark:inline-block mb-6" />
+							<a href="services-single.html" class="block">
+								<h3 class="mb-2.5">Legal on
+									demand</h3>
+							</a>
+							<p class="mb-6">Partnership,
+
+								Buy-Sell,
+
+								NDA,
+
+								Non-Compete,
+
+								Custom</p>
+							<button onclick="togglecustModal('legal-demand')" class="btn-outline btn-sm">
+								Read More
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<a href="solutions.html" class="btn-outline">
+					Get Started
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="bg-gray dark:bg-dark overflow-hidden relative pt-150 pb-[130px] max-md:py-20">
 		<div class="absolute top-0 max-w-[1612px] left-1/2 -translate-x-1/2">
 			<svg xmlns="http://www.w3.org/2000/svg" width="1612" height="520" viewBox="0 0 1612 520" fill="none">
 				<path
@@ -689,7 +957,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="container  overflow-hidden max-lg:!px-0">
+	<div class="container overflow-hidden max-lg:!px-0">
 		<hr class="!border-black " />
 	</div>
 
@@ -831,12 +1099,240 @@
 		</div>
 	</section>
 
+
+	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal launch-business">
+		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+			<div class="modal-contianer relative">
+				<button onclick="togglecustModal('launch-business')" class="closebtn"><i
+						class="fa-solid fa-xmark"></i></button>
+
+				<div class="modal-body">
+					<h3 class="mb-5 title-modal">Launch Business</h3>
+
+					<table class="servi-list-table">
+						<tr>
+							<td><b>Services:</b></td>
+							<td>LLC, Inc., State level Inc., Agreements, Websites, Accounting, Tax registration,
+								Tax filings</td>
+						</tr>
+						<tr>
+							<td><b>Time (weeks):</b></td>
+							<td>1-2</td>
+						</tr>
+						<tr>
+							<td><b>Cost:</b></td>
+							<td>$</td>
+						</tr>
+						<tr>
+							<td><b>Description</b></td>
+							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+								aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal market-analysis">
+		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+			<div class="modal-contianer relative">
+				<button onclick="togglecustModal('market-analysis')" class="closebtn"><i
+						class="fa-solid fa-xmark"></i></button>
+
+				<div class="modal-body">
+					<h3 class="mb-5 title-modal">Market Analysis</h3>
+
+					<table class="servi-list-table">
+						<tr>
+							<td><b>Services:</b></td>
+							<td>Update,
+								Competitor Analysis,
+								Positioning,
+								Pricing analysis,
+								Strategy development
+							</td>
+						</tr>
+						<tr>
+							<td><b>Time (weeks):</b></td>
+							<td>2-4</td>
+						</tr>
+						<tr>
+							<td><b>Cost:</b></td>
+							<td>$$</td>
+						</tr>
+						<tr>
+							<td><b>Description</b></td>
+							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+								aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal growth-marketing">
+		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+			<div class="modal-contianer relative">
+				<button onclick="togglecustModal('growth-marketing')" class="closebtn"><i
+						class="fa-solid fa-xmark"></i></button>
+
+				<div class="modal-body">
+					<h3 class="mb-5 title-modal">Growth Marketing
+					</h3>
+
+					<table class="servi-list-table">
+						<tr>
+							<td><b>Services:</b></td>
+							<td>SEO,
+								SEM,
+								Target/market segments,
+								Lead pipeline,
+								Pitch docs
+							</td>
+						</tr>
+						<tr>
+							<td><b>Time (weeks):</b></td>
+							<td>4-8</td>
+						</tr>
+						<tr>
+							<td><b>Cost:</b></td>
+							<td>$$$</td>
+						</tr>
+						<tr>
+							<td><b>Description</b></td>
+							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+								aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal sales-generation">
+		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+			<div class="modal-contianer relative">
+				<button onclick="togglecustModal('sales-generation')" class="closebtn"><i
+						class="fa-solid fa-xmark"></i></button>
+
+				<div class="modal-body">
+					<h3 class="mb-5 title-modal">Sales Lead Generation
+					</h3>
+
+					<table class="servi-list-table">
+						<tr>
+							<td><b>Services:</b></td>
+							<td>Generate focused leads,
+								Follow up to drop or close,
+								Focused pitch docs
+							</td>
+						</tr>
+						<tr>
+							<td><b>Time (weeks):</b></td>
+							<td>10-12</td>
+						</tr>
+						<tr>
+							<td><b>Cost:</b></td>
+							<td>$$$</td>
+						</tr>
+						<tr>
+							<td><b>Description</b></td>
+							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+								aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal accounting-demand">
+		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+			<div class="modal-contianer relative">
+				<button onclick="togglecustModal('accounting-demand')" class="closebtn"><i
+						class="fa-solid fa-xmark"></i></button>
+
+				<div class="modal-body">
+					<h3 class="mb-5 title-modal">Accounting on demand
+					</h3>
+
+					<table class="servi-list-table">
+						<tr>
+							<td><b>Services:</b></td>
+							<td>Monthly financials,
+								Tax filing,
+								Statutory federal/state compliance,
+								Payroll
+							</td>
+						</tr>
+						<tr>
+							<td><b>Time (weeks):</b></td>
+							<td>1-2</td>
+						</tr>
+						<tr>
+							<td><b>Cost:</b></td>
+							<td>$$</td>
+						</tr>
+						<tr>
+							<td><b>Description</b></td>
+							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+								aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal legal-demand">
+		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
+			<div class="modal-contianer relative">
+				<button onclick="togglecustModal('legal-demand')" class="closebtn"><i
+						class="fa-solid fa-xmark"></i></button>
+
+				<div class="modal-body">
+					<h3 class="mb-5 title-modal">Legal on demand
+					</h3>
+
+					<table class="servi-list-table">
+						<tr>
+							<td><b>Services:</b></td>
+							<td>Partnership,
+								Buy-Sell,
+								NDA,
+								Non-Compete,
+								Custom
+							</td>
+						</tr>
+						<tr>
+							<td><b>Time (weeks):</b></td>
+							<td>&lt;1</td>
+						</tr>
+						<tr>
+							<td><b>Cost:</b></td>
+							<td>$</td>
+						</tr>
+						<tr>
+							<td><b>Description</b></td>
+							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus suscipit
+								aliquid odit rerum officia dignissimos excepturi eum inventore ullam!</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<script src="js/gsap.min.js"></script>
 	<script src="js/motionpath.js"></script>
 	<script src="js/fancybox.js"></script>
 	<script src="js/swiper.js"></script>
 	<script src="js/aos.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>

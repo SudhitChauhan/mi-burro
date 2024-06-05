@@ -80,12 +80,26 @@ img {
 .btn:hover {}
 
 
+
+.hero_info_3 {
+    color: #45ef52;
+}
+
+.hero_info_3>img {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(30%) saturate(5827%) hue-rotate(52deg) brightness(100%) contrast(88%);
+}
+
 .hero_info_1 {
-    top: 100px;
+    top: 70px;
+    color: #bf55e6;
+}
+
+.hero_info_1>img {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(47%) saturate(6935%) hue-rotate(255deg) brightness(96%) contrast(87%);
 }
 
 .hero_info_2 {
-    top: 200px;
+    top: 160px;
     right: 30px;
 }
 
@@ -115,4 +129,124 @@ hr {
 
 .input_btn_size {
     font-size: 14px !important;
+}
+
+.hero_info_4 {
+    color: #46a2e3;
+}
+
+.hero_info_4>img {
+    filter: brightness(0) saturate(100%) invert(69%) sepia(98%) saturate(1977%) hue-rotate(177deg) brightness(85%) contrast(111%);
+}
+
+.hero_info_5 {
+    color: #e3364e;
+}
+
+.hero_info_5>img {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(71%) saturate(899%) hue-rotate(311deg) brightness(83%) contrast(119%);
+}
+
+.hero_info_2 {
+    color: #2748b0;
+}
+
+.hero_info_2>img {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(58%) saturate(2859%) hue-rotate(218deg) brightness(88%) contrast(91%);
+}
+
+.mochidden {
+    display: none !important;
+}
+
+.cumodal {
+    position: fixed;
+    inset: 0 0 0 0;
+    height: 100%;
+    z-index: 10000000000;
+    background: rgb(0 0 0 / 60%);
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contianer {
+    padding: 30px;
+    background-color: #ffffff;
+    min-width: 600px;
+    max-width: 700px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.closebtn {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+}
+
+.servi-list-table {
+    width: 100%;
+}
+
+.servi-list-table td:first-child {
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+.servi-list-table td {
+    vertical-align: top;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.title-modal {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+    .hero_info_1 {
+        top: 200px;
+    }
+
+    .hero_info_5 {
+        bottom: 40px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero_info_2 {
+        top: 146px;
+        left: 30px;
+        right: unset;
+    }
+
+    .hero_info_4 {
+        bottom: unset !important;
+        left: unset !important;
+        left: 30px !important;
+        top: 210px;
+    }
+
+    .hero_info_1 {
+        top: 280px;
+    }
+
+    .hero_info_5 {
+        bottom: -53px !important;
+    }
+
+    .image-hero-box {
+        display: none;
+    }
+
+    .modal-contianer {
+        min-width: 100%;
+    }
+
+    .servi-list-table td {
+        display: block;
+
+    }
 }
