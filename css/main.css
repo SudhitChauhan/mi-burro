@@ -155,6 +155,10 @@ hr {
     filter: brightness(0) saturate(100%) invert(22%) sepia(58%) saturate(2859%) hue-rotate(218deg) brightness(88%) contrast(91%);
 }
 
+.hero_info_7 {
+    bottom: 216px !important;
+}
+
 .mochidden {
     display: none !important;
 }
