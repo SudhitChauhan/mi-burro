@@ -33,7 +33,9 @@
 		id="mainnavigationBar">
 		<nav class="container flex  items-center ">
 			<div class="nav-logo xl:min-w-[266px]">
-				<a href="index.html" class="text-[32px] font-bold text-46a2e3">Precision Accounting & Tax</a>
+				<a href="index.html" class="text-[22px] text-32 font-bold text-46a2e3">Precision<br />Accounting
+					&
+					Tax</a>
 			</div>
 			<ul
 				class="nav-list hidden lg:flex gap-10 mx-auto bg-white p-2.5 shadow-nav rounded-large [&>*:not(:last-child)]:me-1">
@@ -225,8 +227,8 @@
 					</form>
 				</div>
 				<div class="col-span-12 lg:col-span-6 ">
-					<div class="relative w-full min-h-[530px] max-md:min-h-[400px] lg:ml-15">
-						<div class="absolute !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2">
+					<div class="relative w-full min-h-[530px] max-md:min-h-[400px] lg:ml-15 desktop_view">
+						<div class="absolute !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2 center-circle-img">
 							<img src="images/hero/hero-circle.png" alt="hero Image" class="inline-block dark:hidden" />
 							<img src="images/hero/hero-circle-dark.png" alt="hero Image"
 								class="hidden dark:inline-block" />
@@ -262,6 +264,47 @@
 						<div class="absolute max-lg:w-[196px] image-hero-box !-right-5 !-bottom-0 max-md:!-bottom-5 max-md:!-right-5 lg:!not-sr-only-bottom-[45px] lg:right-0 xl:right-[30px] parallax-effect"
 							parallax-value="2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000"
 							data-aos-once="true">
+							<img src="images/hero/hero-chart.png" alt="hero Image" class="inline-block dark:hidden" />
+							<img src="images/hero/hero-chart-dark.png" alt="hero Image"
+								class="hidden dark:inline-block" />
+						</div>
+					</div>
+					<div class="relative w-full min-h-[530px] max-md:min-h-[400px] lg:ml-15 mobile_view">
+						<div class="absolute !left-1/2 !top-1/2 -translate-x-1/2 -translate-y-1/2 center-circle-img">
+							<img src="images/hero/hero-circle.png" alt="hero Image" class="inline-block dark:hidden" />
+							<img src="images/hero/hero-circle-dark.png" alt="hero Image"
+								class="hidden dark:inline-block" />
+						</div>
+						<div
+							class="absolute hero_info_3 max-lg:!left-0 max-md:!top-5 !top-15 !-left-[40px] lg:!-top-[20px] text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4">
+							<img src="images/office-building.png" width="30" />From a Company
+						</div>
+						<div
+							class="absolute hero_info_1 text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4">
+							<img src="images/contract.png" width="30" />Review a legal agreement
+						</div>
+
+						<div
+							class="absolute hero_info_2 text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4">
+							<img src="images/saving.png" width="30" />Pull Financials for a loan
+						</div>
+
+						<div
+							class="absolute hero_info_7 max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4">
+							<img src="images/audit.png" width="30" />Review financials
+						</div>
+
+						<div
+							class="absolute hero_info_4 max-md:!left-[50px] max-md:!bottom-[70px] !bottom-[150px] !left-[50px] lg:!bottom-0  lg:!left-[45px] xl:!left-[85px] text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4">
+							<img src="images/new-account.png" width="30" />Target new customers
+						</div>
+						<div
+							class="absolute !-left-5 hero_info_5 bottom-90 max-md:!-left-5 lg:left-0 xl:left-[30px] text-lg bg-white py-4 px-10 rounded-full shadow-box flex items-center gap-4">
+							<img src="images/storage.png" width="30" />File Tax Returns
+						</div>
+
+						<div class="absolute max-lg:w-[196px] image-hero-box !-right-5 !-bottom-0 max-md:!-bottom-5 max-md:!-right-5 lg:!not-sr-only-bottom-[45px] lg:right-0 xl:right-[30px]"
+							data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
 							<img src="images/hero/hero-chart.png" alt="hero Image" class="inline-block dark:hidden" />
 							<img src="images/hero/hero-chart-dark.png" alt="hero Image"
 								class="hidden dark:inline-block" />
@@ -606,175 +649,192 @@
 					</div>
 				</div>
 
-				<div class="grid grid-cols-3  max-sm:grid-cols-1 max-lg:grid-cols-2 gap-8">
 
-					<div
-						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-						<div
-							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
-							<img src="images/services/effeciency.svg" alt="service logo"
-								class="inline-block dark:hidden mb-6" />
-							<img src="images/services/effeciency-dark.svg" alt="service logo"
-								class="hidden dark:inline-block mb-6" />
-							<a href="services-single.html" class="block">
-								<h3 class="mb-2.5">Accounting
-									on demand</h3>
-							</a>
-							<p class="mb-6">Monthly
-								financials,
+				<div class="swiper" id="testionial">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div
+								class="bg-white rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+								<div
+									class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+									<img src="images/services/effeciency.svg" alt="service logo"
+										class="inline-block dark:hidden mb-6" />
+									<img src="images/services/effeciency-dark.svg" alt="service logo"
+										class="hidden dark:inline-block mb-6" />
+									<a href="services-single.html" class="block">
+										<h3 class="mb-2.5">Accounting
+											on demand</h3>
+									</a>
+									<p class="mb-6">Monthly
+										financials,
 
-								Tax filing,
+										Tax filing,
 
-								Statutory
-								federal/state
-								compliance,
+										Statutory
+										federal/state
+										compliance,
 
-								Payroll</p>
-							<button onclick="togglecustModal('accounting-demand')" class="btn-outline btn-sm">Read
-								More</button>
+										Payroll</p>
+									<button onclick="togglecustModal('accounting-demand')"
+										class="btn-outline btn-sm">Read
+										More</button>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+								<div
+									class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+									<img src="images/services/finance.svg" alt="service logo"
+										class="inline-block dark:hidden mb-6" />
+									<img src="images/services/finance-dark.svg" alt="service logo"
+										class="hidden dark:inline-block mb-6" />
+									<a href="services-single.html" class="block">
+										<h3 class="mb-2.5">Personal & Business tax filing</h3>
+									</a>
+									<p class="mb-6">Generate
+										focused leads,
+
+										Follow up to
+										drop or close,
+
+										Focused pitch
+										docs</p>
+									<button onclick="togglecustModal('sales-generation')"
+										class="btn-outline btn-sm">Read
+										More</button>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="bg-white modal-conta rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+								<div
+									class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
+									<img src="images/services/investment.svg" alt="service logo"
+										class="inline-block dark:hidden mb-6" />
+									<img src="images/services/investment-dark.svg" alt="service logo"
+										class="hidden dark:inline-block mb-6" />
+									<a href="services-single.html" class="block">
+										<h3 class="mb-2.5">Launch Business</h3>
+									</a>
+									<p class="mb-6">LLC Inc.,
+
+										Tax registration,
+										Agreements,
+
+										Accounting,
+										Websites,
+
+
+										Tax filings,
+
+										Etc.</p>
+									<button onclick="togglecustModal('launch-business')" class="btn-outline btn-sm">
+										Read More
+									</button>
+								</div>
+
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+								<div
+									class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+									<img src="images/services/sales.svg" alt="service logo"
+										class="inline-block dark:hidden mb-6" />
+									<img src="images/services/sales-dark.svg" alt="service logo"
+										class="hidden dark:inline-block mb-6" />
+									<a href="services-single.html" class="block">
+										<h3 class="mb-2.5">Market
+											Analysis</h3>
+									</a>
+									<p class="mb-6">Update,
+
+										Competitor
+										Analysis,
+
+										Positioning,
+
+										Pricing
+										analysis,
+
+										Strategy
+										development</p>
+									<button onclick="togglecustModal('market-analysis')" class="btn-outline btn-sm">
+										Read More
+									</button>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+								<div
+									class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+									<img src="images/services/loan.svg" alt="service logo"
+										class="inline-block dark:hidden mb-6" />
+									<img src="images/services/loan-dark.svg" alt="service logo"
+										class="hidden dark:inline-block mb-6" />
+									<a href="services-single.html" class="block">
+										<h3 class="mb-2.5">Growth
+											Marketing</h3>
+									</a>
+									<p class="mb-6">SEO, SEM,
+
+										Target/market segments,
+
+										Lead pipeline,
+
+										Pitch docs</p>
+									<button onclick="togglecustModal('growth-marketing')"
+										class="btn-outline btn-sm">Read
+										More</button>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div
+								class="bg-white rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+								<div
+									class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
+									<img src="images/services/fund.svg" alt="service logo"
+										class="inline-block dark:hidden mb-6" />
+									<img src="images/services/fund-dark.svg" alt="service logo"
+										class="hidden dark:inline-block mb-6" />
+									<a href="services-single.html" class="block">
+										<h3 class="mb-2.5">Legal on
+											demand</h3>
+									</a>
+									<p class="mb-6">Partnership,
+
+										Buy-Sell,
+
+										NDA,
+
+										Non-Compete,
+
+										Custom</p>
+									<button onclick="togglecustModal('legal-demand')" class="btn-outline btn-sm">
+										Read More
+									</button>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div
-						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-						<div
-							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
-							<img src="images/services/finance.svg" alt="service logo"
-								class="inline-block dark:hidden mb-6" />
-							<img src="images/services/finance-dark.svg" alt="service logo"
-								class="hidden dark:inline-block mb-6" />
-							<a href="services-single.html" class="block">
-								<h3 class="mb-2.5">Personal & Business tax filing</h3>
-							</a>
-							<p class="mb-6">Generate
-								focused leads,
-
-								Follow up to
-								drop or close,
-
-								Focused pitch
-								docs</p>
-							<button onclick="togglecustModal('sales-generation')" class="btn-outline btn-sm">Read
-								More</button>
-						</div>
-					</div>
-					<di v
-						class="bg-white modal-conta rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-						<div
-							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
-							<img src="images/services/investment.svg" alt="service logo"
-								class="inline-block dark:hidden mb-6" />
-							<img src="images/services/investment-dark.svg" alt="service logo"
-								class="hidden dark:inline-block mb-6" />
-							<a href="services-single.html" class="block">
-								<h3 class="mb-2.5">Launch Business</h3>
-							</a>
-							<p class="mb-6">LLC Inc.,
-
-								Tax registration,
-								Agreements,
-
-								Accounting,
-								Websites,
-
-
-								Tax filings,
-
-								Etc.</p>
-							<button onclick="togglecustModal('launch-business')" class="btn-outline btn-sm">
-								Read More
-							</button>
-						</div>
-
-					</di>
-
-					<div
-						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-						<div
-							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
-							<img src="images/services/sales.svg" alt="service logo"
-								class="inline-block dark:hidden mb-6" />
-							<img src="images/services/sales-dark.svg" alt="service logo"
-								class="hidden dark:inline-block mb-6" />
-							<a href="services-single.html" class="block">
-								<h3 class="mb-2.5">Market
-									Analysis</h3>
-							</a>
-							<p class="mb-6">Update,
-
-								Competitor
-								Analysis,
-
-								Positioning,
-
-								Pricing
-								analysis,
-
-								Strategy
-								development</p>
-							<button onclick="togglecustModal('market-analysis')" class="btn-outline btn-sm">
-								Read More
-							</button>
-						</div>
-					</div>
-
-					<div
-						class="bg-white  rounded-medium p-2.5 shadow-nav relative  scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-						<div
-							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
-							<img src="images/services/loan.svg" alt="service logo"
-								class="inline-block dark:hidden mb-6" />
-							<img src="images/services/loan-dark.svg" alt="service logo"
-								class="hidden dark:inline-block mb-6" />
-							<a href="services-single.html" class="block">
-								<h3 class="mb-2.5">Growth
-									Marketing</h3>
-							</a>
-							<p class="mb-6">SEO, SEM,
-
-								Target/market segments,
-
-								Lead pipeline,
-
-								Pitch docs</p>
-							<button onclick="togglecustModal('growth-marketing')" class="btn-outline btn-sm">Read
-								More</button>
-						</div>
-					</div>
-
-					<div
-						class="bg-white rounded-medium p-2.5 shadow-nav relative scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
-						<div
-							class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-10 h-full max-lg:p-5">
-							<img src="images/services/fund.svg" alt="service logo"
-								class="inline-block dark:hidden mb-6" />
-							<img src="images/services/fund-dark.svg" alt="service logo"
-								class="hidden dark:inline-block mb-6" />
-							<a href="services-single.html" class="block">
-								<h3 class="mb-2.5">Legal on
-									demand</h3>
-							</a>
-							<p class="mb-6">Partnership,
-
-								Buy-Sell,
-
-								NDA,
-
-								Non-Compete,
-
-								Custom</p>
-							<button onclick="togglecustModal('legal-demand')" class="btn-outline btn-sm">
-								Read More
-							</button>
-						</div>
-					</div>
+					<div class="swiper-pagination mt-12"></div>
 				</div>
+
 			</div>
 
-			<div class="text-center">
+			<!-- <div class="text-center">
 				<a href="solutions.html" class="btn-outline">
 					Get Started
 				</a>
-			</div>
+			</div> -->
 
 		</div>
 	</section>
@@ -1084,7 +1144,6 @@
 			</div>
 		</div>
 	</section>
-
 
 	<div class="fixed z-10 overflow-y-auto top-0 w-full left-0 mochidden cumodal launch-business">
 		<div class="flex items-center justify-center min-height-100vh pt-4 px-4 text-center sm:block sm:p-0">
