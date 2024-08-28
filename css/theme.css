@@ -3060,7 +3060,7 @@ a {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(70 162 227 / var(--tw-text-opacity));
+  color: #145dd1;
 }
 
 .text-transparent {
@@ -6561,7 +6561,7 @@ html {
 /*# sourceMappingURL=maps/theme.css.map */
 
 .text-46a2e3 {
-  color: #46a2e3;
+  color: #145dd1;
 }
 
 .bottom-90 {
