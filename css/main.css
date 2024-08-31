@@ -169,10 +169,16 @@ hr {
     height: 100%;
     z-index: 10000000000;
     background: rgb(0 0 0 / 60%);
-    display: flex;
     padding: 0;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    overflow: auto;
+    height: 100vh;
+}
+
+.min-height-100vh {
+    min-height: 100vh;
 }
 
 .modal-contianer {
@@ -219,6 +225,27 @@ hr {
 }
 
 
+.hero_info_1,
+.hero_info_2,
+.hero_info_7,
+.hero_info_4,
+.hero_info_5,
+.hero_info_3 {
+    margin-bottom: 20px;
+    color: #000;
+    border: 1px dashed #afacac;
+    background: radial-gradient(#ffffff, #e7f0ff);
+}
+
+.hero_info_1>img,
+.hero_info_2>img,
+.hero_info_7>img,
+.hero_info_4>img,
+.hero_info_5>img,
+.hero_info_3>img {
+    filter: unset;
+}
+
 @media screen and (max-width: 991px) {
     .hero_info_1 {
         top: 200px;
@@ -228,6 +255,10 @@ hr {
         bottom: 40px !important;
     }
 
+    .text-xl {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
 @media screen and (max-width: 768px) {
