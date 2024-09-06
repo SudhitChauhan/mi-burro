@@ -2480,8 +2480,8 @@ a {
 }
 
 .py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 1.0rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-12 {
@@ -2668,7 +2668,7 @@ a {
 }
 
 .pt-20 {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .pt-5 {
@@ -2911,7 +2911,7 @@ a {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: #145dd1;
+  color: #0f62fe;
 }
 
 .text-transparent {
@@ -6410,9 +6410,34 @@ html {
 }
 
 .text-46a2e3 {
-  color: #145dd1;
+  color: #0f62fe;
 }
 
 .bottom-90 {
   bottom: 120px;
+}
+
+.footer ul li>a {
+  font-size: 14px;
+}
+
+.footer ul li {
+  line-height: 16px;
+}
+
+.footer p,
+.footer p>a {
+  font-size: 14px;
+}
+
+.footer .lg\:col-span-6>a {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer .text-lg {
+
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
